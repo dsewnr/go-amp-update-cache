@@ -12,7 +12,7 @@ PUBLICKEY_FILE="PATH/TO/PUBLICKEY"
 ```
 package main
 
-import "github.com/dsewnr/amp-update-cache/purger"
+import "github.com/dsewnr/go-amp-update-cache/purger"
 
 func main() {
         url := "YOUR_AMP_URL"
