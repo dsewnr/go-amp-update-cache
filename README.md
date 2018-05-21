@@ -8,7 +8,7 @@
 PRIVATEKEY_FILE="PATH/TO/PRIVATEKEY"
 PUBLICKEY_FILE="PATH/TO/PUBLICKEY"
 ```
-2. 呼叫 Purge 函式並將 AMP url 代入
+2. 呼叫 Purge 函式並將 AMP URL 代入
 ```
 package main
 
