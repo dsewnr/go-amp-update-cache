@@ -80,7 +80,7 @@ func httpGet(url string) {
 	if err != nil {
 		log.Fatal(err)
 	}
-	fmt.Println(resp)
+	fmt.Printf("Status: %d\n", resp.StatusCode)
 }
 
 func getAmpCachesJson() AmpCacheJson {
@@ -169,6 +169,7 @@ func getAmpRefreshUrl(cacheUrl string) string {
 }
 
 func Purge(url string) {
+	fmt.Printf("URL: %s\n", url)
 	amp_cache_json := getAmpCachesJson()
 	for _, amp_cache := range amp_cache_json.Caches {
 		cache_url := getAmpCacheUrl(url, amp_cache)
