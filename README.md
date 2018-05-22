@@ -2,6 +2,11 @@
 
 參考 [AMP update-cache Demo](https://github.com/ampproject/amp-publisher-sample/tree/master/amp-update-cache) 並用 Golang 實現，詳細設定請先參閱 [Update AMP Content](https://developers.google.com/amp/cache/update-cache#update-cache-request) 說明文件。
 
+## 安裝
+```
+go get github.com/dsewnr/go-amp-update-cache
+```
+
 ## 用法
 1. 產生 .env 檔，並設定私鑰及公鑰路徑
 ```
